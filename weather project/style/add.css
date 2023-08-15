@@ -1,0 +1,59 @@
+.body {
+  border: 2px solid lightsteelblue;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  color: rgb(74, 74, 74);
+}
+
+h1,
+.degrees-now {
+  font-size: 40px;
+  font-weight: 500;
+  margin: auto;
+  padding-top: 10px;
+}
+h2 {
+  font-size: 19px;
+  font-weight: 100;
+  margin: auto;
+  padding-top: 5px;
+}
+
+#site-search {
+  font-size: 13px;
+  background-color: transparent;
+  border-color: lightgrey;
+  border-style: solid;
+}
+.button,
+.current {
+  background-color: transparent;
+  border-radius: 4px;
+  border-color: lightgrey;
+  font-size: 13px;
+  border-style: solid;
+  padding: 4px 10px;
+}
+.current {
+  padding: 4px 35px;
+}
+.button:hover,
+.current:hover {
+  border-color: lightsteelblue;
+  transition: all 150ms ease-in-out;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+  text-align: right;
+}
+
+#description {
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-top: 15px;
+}
